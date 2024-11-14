@@ -1,0 +1,422 @@
+{
+  "destinations": [
+      {
+          "name": "Paris",
+          "homepageImage": "images/paris.jpg",
+          "images": [
+              "images/paris1.jpg",
+              "images/paris2.jpg",
+              "images/paris3.jpg"
+          ],
+          "description": "Explore the romantic city of Paris with its stunning landmarks and rich history.",
+          "attractions": [
+              {
+                  "name": "Arc de Triomphe",
+                  "image": "images/arc_de_triump.jpg"
+              },
+              {
+                  "name": "Tuileries Garden",
+                  "image": "images/garden.jpg"
+              },
+              {
+                  "name": "Grand Palais",
+                  "image": "images/grand_palace.jpg"
+              }
+          ],
+          "food": [
+              {
+                  "name": "Croissants",
+                  "image": "images/croissant.jpg"
+              },
+              {
+                  "name": "Baguettes",
+                  "image": "images/baguettes.jpg"
+              },
+              {
+                  "name": "French Cheese",
+                  "image": "images/french_cheese.jpg"
+              }
+          ],
+          "hotels": [
+              {
+                  "name": "Hotel Le Meurice",
+                  "image": "images/le_murich.jpg"
+              },
+              {
+                  "name": "Hotel Ritz Paris",
+                  "image": "images/ritz_paris.jpg"
+              },
+              {
+                  "name": "Shangri-La Hotel",
+                  "image": "images/shangri_la.jpg"
+              }
+          ],
+          "restaurants": [
+              {
+                  "name": "Le Jules Verne",
+                  "image": "images/jules_verne.jpg"
+              },
+              {
+                  "name": "L'Ambroisie",
+                  "image": "images/lambroisie.jpg"
+              },
+              {
+                  "name": "Le Cinq",
+                  "image": "images/le_cinq.jpg"
+              }
+          ]
+      },
+      {
+          "name": "Tokyo",
+          "homepageImage": "images/tokyo.jpg",
+          "images": [
+              "images/tokyo1.jpg",
+              "images/tokyo2.jpg",
+              "images/tokyo3.jpg"
+          ],
+          "description": "Explore the vibrant culture of Tokyo with its unique blend of tradition and modernity.",
+          "attractions": [
+              {
+                  "name": "Tokyo Skytree",
+                  "image": "images/tokyo_skytree.jpg"
+              },
+              {
+                  "name": "Shibuya Crossing",
+                  "image": "images/shibuya_crossing.jpg"
+              },
+              {
+                  "name": "Senso-ji Temple",
+                  "image": "images/sensoi_ji.jpg"
+              }
+          ],
+          "food": [
+              {
+                  "name": "Sushi",
+                  "image": "images/sushi.jpg"
+              },
+              {
+                  "name": "Ramen",
+                  "image": "images/ramen.jpg"
+              },
+              {
+                  "name": "Tempura",
+                  "image": "images/tempura.jpg"
+              }
+          ],
+          "hotels": [
+              {
+                  "name": "Park Hyatt Tokyo",
+                  "image": "images/park_hyatt_tokyo.jpg"
+              },
+              {
+                  "name": "The Peninsula Tokyo",
+                  "image": "images/peninsula_tokyo.jpg"
+              },
+              {
+                  "name": "Mandarin Oriental Tokyo",
+                  "image": "images/mandarin_oriental_tokyo.jpg"
+              }
+          ],
+          "restaurants": [
+              {
+                  "name": "Sukiyabashi Jiro",
+                  "image": "images/sukiyabashi_jiro.jpg"
+              },
+              {
+                  "name": "Den",
+                  "image": "images/den.jpg"
+              },
+              {
+                  "name": "Narisawa",
+                  "image": "images/narisawa.jpg"
+              }
+          ]
+      },
+      {
+          "name": "New York",
+          "homepageImage": "images/nyc.jpg",
+          "images": [
+              "images/nyc1.jpg",
+              "images/nyc2.jpg",
+              "images/nyc3.jpg"
+          ],
+          "description": "Discover the bustling energy of New York City, iconic landmarks.",
+          "attractions": [
+              {
+                  "name": "Empire State Building",
+                  "image": "images/empire_state.jpg"
+              },
+              {
+                  "name": "The Metropolitan Museum of Art",
+                  "image": "images/art_meuseum.jpg"
+              },
+              {
+                  "name": "Brooklyn Bridge",
+                  "image": "images/brookyl_bridge.jpg"
+              }
+          ],
+          "food": [
+              {
+                  "name": "Pizza",
+                  "image": "images/pizza.jpg"
+              },
+              {
+                  "name": "Bagels",
+                  "image": "images/bagels.jpg"
+              },
+              {
+                  "name": "Cheesecake",
+                  "image": "images/cheesecake.jpg"
+              }
+          ],
+          "hotels": [
+              {
+                  "name": "The Plaza",
+                  "image": "images/tha_plaza.jpg"
+              },
+              {
+                  "name": "The St. Regis",
+                  "image": "images/st_regis.jpg"
+              },
+              {
+                  "name": "The Peninsula New York",
+                  "image": "images/peninsula_nyc.jpg"
+              }
+          ],
+          "restaurants": [
+              {
+                  "name": "Le Bernardin",
+                  "image": "images/le_bernardin.jpg"
+              },
+              {
+                  "name": "Eleven Madison Park",
+                  "image": "images/eleven_madison_park.jpg"
+              },
+              {
+                  "name": "Katz's Delicatessen",
+                  "image": "images/katzs.jpg"
+              }
+          ]
+      },
+      {
+          "name": "Rome",
+          "homepageImage": "images/rome.jpg",
+          "images": [
+              "images/rome1.jpg",
+              "images/rome2.jpg",
+              "images/rome3.jpg"
+          ],
+          "description": "Step back in time and explore the ancient wonders of Rome, from the Colosseum to Vatican City.",
+          "attractions": [
+              {
+                  "name": "Piazza Navona",
+                  "image": "images/piazza.jpg"
+              },
+              {
+                  "name": "Sistine Chapel",
+                  "image": "images/sistine.jpg"
+              },
+              {
+                  "name": "Trevi Fountain",
+                  "image": "images/trevi_fountain.jpg"
+              }
+          ],
+          "food": [
+              {
+                  "name": "Pasta",
+                  "image": "images/pasta.jpg"
+              },
+              {
+                  "name": "Pizza",
+                  "image": "images/pizza_rome.jpg"
+              },
+              {
+                  "name": "Gelato",
+                  "image": "images/gelato.jpg"
+              }
+          ],
+          "hotels": [
+              {
+                  "name": "Hotel de Russie",
+                  "image": "images/hotel_de_russie.jpg"
+              },
+              {
+                  "name": "The St. Regis Rome",
+                  "image": "images/st_regis_rome.jpg"
+              },
+              {
+                  "name": "Rome Cavalieri",
+                  "image": "images/rome_cavalieri.jpg"
+              }
+          ],
+          "restaurants": [
+              {
+                  "name": "La Pergola",
+                  "image": "images/la_pergola.jpg"
+              },
+              {
+                  "name": "Roscioli",
+                  "image": "images/roscioli.jpg"
+              },
+              {
+                  "name": "Armando al Pantheon",
+                  "image": "images/armando_al_pantheon.jpg"
+              }
+          ]
+      },
+      {
+          "name": "Sydney",
+          "homepageImage": "images/sydney.jpg",
+          "images": [
+              "images/sydney1.jpg",
+              "images/sydney2.jpg",
+              "images/sydney3.jpg"
+          ],
+          "description": "Enjoy the stunning natural beauty of Sydney, from its famous opera house to its beautiful beaches.",
+          "attractions": [
+              {
+                  "name": "Darling Harbour",
+                  "image": "images/darling_harbour.jpg"
+              },
+              {
+                  "name": "Sydney Tower Eye",
+                  "image": "images/tower_eye.jpg"
+              },
+              {
+                  "name": "Art Gallery of New South Wales",
+                  "image": "images/art_gallery.jpg"
+              }
+          ],
+          "food": [
+              {
+                  "name": "Meat Pie",
+                  "image": "images/meat_pie.jpg"
+              },
+              {
+                  "name": "Barbecue",
+                  "image": "images/barbecue.jpg"
+              },
+              {
+                  "name": "Lamington",
+                  "image": "images/lamington.jpg"
+              }
+          ],
+          "hotels": [
+              {
+                  "name": "The Langham Sydney",
+                  "image": "images/langham_sydney.jpg"
+              },
+              {
+                  "name": "Park Hyatt Sydney",
+                  "image": "images/park_hyatt_sydney.jpg"
+              },
+              {
+                  "name": "QT Sydney",
+                  "image": "images/qt_sydney.jpg"
+              }
+          ],
+          "restaurants": [
+              {
+                  "name": "Quay",
+                  "image": "images/quay.jpg"
+              },
+              {
+                  "name": "Bennelong",
+                  "image": "images/bennelong.jpg"
+              },
+              {
+                  "name": "Tetsuya's",
+                  "image": "images/tetsuyas.jpg"
+              }
+          ]
+      }
+  ,
+  {
+    "name": "London",
+    "homepageImage": "images/london.jpg",
+    "images": [
+        "images/london1.jpg",
+        "images/london2.jpg",
+        "images/london3.jpg"
+    ],
+    "description": "Discover the rich history and vibrant culture of London, from iconic landmarks to world-renowned museums.",
+    "attractions": [
+        {
+            "name": "Big Ben",
+            "image": "images/big_ben.jpg"
+        },
+        {
+            "name": "London Eye",
+            "image": "images/london_eye.jpg"
+        },
+        {
+            "name": "Tower Bridge",
+            "image": "images/tower_bridge.jpg"
+        }
+    ],
+    "food": [
+        {
+            "name": "Fish and Chips",
+            "image": "images/fish_chips.jpg"
+        },
+        {
+            "name": "Full English Breakfast",
+            "image": "images/full_english_breakfast.jpg"
+        },
+        {
+            "name": "Afternoon Tea",
+            "image": "images/afternoon_tea.jpg"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "The Ritz London",
+            "image": "images/ritz_london.jpg"
+        },
+        {
+            "name": "The Savoy",
+            "image": "images/savoy_london.jpg"
+        },
+        {
+            "name": "Claridge's",
+            "image": "images/claridges_london.jpg"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "The Ledbury",
+            "image": "images/the_ledbury.jpg"
+        },
+        {
+            "name": "Sketch",
+            "image": "images/sketch.jpg"
+        },
+        {
+            "name": "Dinner by Heston Blumenthal",
+            "image": "images/dinner_heston_blumenthal.jpg"
+        }
+    ]
+  } ],
+
+    "packages": [
+      {
+        "name": "South India Splendor",
+        "image": "images/south_package.png",
+        "description": "Experience the culture and beauty of South India with our exclusive tour package.",
+        "price": "$1,899"
+      },
+      {
+        "name": "Tokyo Explorer",
+        "image": "images/japan_package.jpg",
+        "description": "Immerse yourself in the vibrant culture of Japan with our exclusive package.",
+        "price": "$3,199"
+      },
+      {
+        "name": "Delhi Sightseeing",
+        "image": "images/delhi.png",
+        "description": "Discover Delhi's rich heritage and culture with our curated package.",
+        "price": "$699"
+      }
+    ]
+  }
+  

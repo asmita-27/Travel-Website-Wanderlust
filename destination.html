@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination - Wanderlust</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+    text-decoration: underline;
+    color: black;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.destination-info {
+    margin-top: 40px;
+}
+.destination-info h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+.destination-info .section {
+    margin-bottom: 40px;
+}
+.destination-info .section h3 {
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.destination-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.destination-info ul li {
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.carousel-image-container {
+    position: relative;
+}
+.carousel-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+
+
+.image-grid img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; 
+}
+.footer {
+            background-color: #3b4148;
+            padding: 40px 0;
+            color: #f8f9fa;
+        }
+        .footer h5 {
+            font-weight: 700;
+        }
+        .footer .contact, .footer .about, .footer .copyright {
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.php">Wanderlust</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#attractions">Attractions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#food">Food</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hotels">Hotels</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#restaurants">Restaurants</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="destinationCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+        </ol>
+        <div class="carousel-inner">
+        </div>
+        <a class="carousel-control-prev" href="#destinationCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#destinationCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Destination Info -->
+    <div class="container destination-info">
+        <h2 id="destinationName">Destination Name</h2>
+        <div class="section" id="description">
+            <h3>Description</h3>
+            <p id="descriptionText">Description of the destination.</p>
+        </div>
+        <div class="section" id="attractions">
+            <h3>Main Attractions</h3>
+            <div id="attractionsList" class="image-grid">
+            </div>
+        </div>
+        <div class="section" id="food">
+            <h3>Food</h3>
+            <div id="foodList" class="image-grid">
+            </div>
+        </div>
+        <div class="section" id="hotels">
+            <h3>Hotels</h3>
+            <div id="hotelsList" class="image-grid">
+            </div>
+        </div>
+        <div class="section" id="restaurants">
+            <h3>Restaurants</h3>
+            <div id="restaurantsList" class="image-grid">
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 contact">
+                    <h5>Contact Us</h5>
+                    <p>Email: contact@wanderlust.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="col-md-4 about">
+                    <h5>About Us</h5>
+                    <p>Wanderlust is dedicated to providing the best travel experiences. Explore our wide range of destinations and travel packages to make your next trip unforgettable.</p>
+                </div>
+                <div class="col-md-4 copyright">
+                    <h5>Copyright</h5>
+                    <p>&copy; 2024 Wanderlust. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script>
+        $(document).ready(function() {
+            var params = new URLSearchParams(window.location.search);
+            var destinationName = params.get('name');
+        
+            $.getJSON('destinations.json', function(data) {
+                var destination = data.destinations.find(dest => dest.name === decodeURIComponent(destinationName));
+        
+                if (destination) {
+                    var carouselIndicators = $('.carousel-indicators');
+                    var carouselInner = $('.carousel-inner');
+                    destination.images.forEach(function(image, index) {
+                        var indicator = `
+                            <li data-target="#destinationCarousel" data-slide-to="${index}" ${index === 0 ? 'class="active"' : ''}></li>
+                        `;
+                        carouselIndicators.append(indicator);
+        
+                        var slide = `
+                            <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                                <img src="${image}" class="d-block w-100" alt="${destination.name}">
+                            </div>
+                        `;
+                        carouselInner.append(slide);
+                    });
+        
+                    $('#destinationName').text(destination.name);
+                    $('#descriptionText').text(destination.description);
+        
+                    destination.attractions.forEach(function(attraction) {
+                        $('#attractionsList').append(`
+                            <div class="grid-item">
+                                <img src="${attraction.image}" alt="${attraction.name}">
+                                <p>${attraction.name}</p>
+                            </div>
+                        `);
+                    });
+        
+                    destination.food.forEach(function(food) {
+                        $('#foodList').append(`
+                            <div class="grid-item">
+                                <img src="${food.image}" alt="${food.name}">
+                                <p>${food.name}</p>
+                            </div>
+                        `);
+                    });
+        
+                    destination.hotels.forEach(function(hotel) {
+                        $('#hotelsList').append(`
+                            <div class="grid-item">
+                                <img src="${hotel.image}" alt="${hotel.name}">
+                                <p>${hotel.name}</p>
+                            </div>
+                        `);
+                    });
+        
+                    destination.restaurants.forEach(function(restaurant) {
+                        $('#restaurantsList').append(`
+                            <div class="grid-item">
+                                <img src="${restaurant.image}" alt="${restaurant.name}">
+                                <p>${restaurant.name}</p>
+                            </div>
+                        `);
+                    });
+    
+                    // Scaling effect on hover for grid images
+                    $('.grid-item img').hover(
+                        function() {
+                            $(this).css({
+                                transform: 'scale(1.05)',
+                                transition: 'transform 0.3s ease-in-out'
+                            });
+                        },
+                        function() {
+                            $(this).css({
+                                transform: 'scale(1)',
+                                transition: 'transform 0.3s ease-in-out'
+                            });
+                        }
+                    );
+                } else {
+                    $('#destinationName').text('Destination not found');
+                }
+            }).fail(function() {
+                console.error("Failed to load destination data.");
+            });
+        });
+    </script>
+    </body>
+</html>

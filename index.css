@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    background-color: rgb(65, 62, 60);
+    color: #f8f9fa;
+}
+.info {
+    background-image: url("images/home_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.info h1 {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 1.0) 2px 2px 5px;
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.navbar{
+    color: #ffffff;
+}
+
+ 
+ .navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+ }
+.nav-link {
+    text-decoration: underline;
+    transition: background-color 0.3s ease;
+}
+.nav-link:hover {
+    background-color: rgb(57, 51, 46);
+    color: #f8f9fa;
+}  
+.footer {
+    background-color: #3b4148;
+    padding: 40px 0;
+    color: #f8f9fa;
+}
+.footer h5 {
+    font-weight: 700;
+}
+.footer .contact, .footer .about, .footer .copyright {
+    margin-bottom: 10px;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.destination-card {
+    margin: 0 auto; /* Center the card */
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px; /* Adjust spacing for smaller screens */
+    }
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+.navbar-nav .nav-link {
+   text-decoration: underline;
+   color: white;
+   font-size: 1rem;
+   margin-right: 1rem;
+   transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+   transform: scale(1.1);
+}
+
+
+.card-price {
+   font-size: 1.25rem;
+   font-weight: bold;
+   color: #007bff;
+   margin: 1rem 0;
+   object-fit: cover;
+}
+
+h2 {
+   margin-top: 2rem;
+   text-align: center;
+   font-weight: bold;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+ul li {
+   margin-bottom: 0.5rem;
+}
+.card-img-top {
+   height: auto;
+   object-fit: cover;
+}
+.card {
+ border: 1px solid #ddd;
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ overflow: hidden;
+}
+.card-body {
+ flex-grow: 1;
+}
