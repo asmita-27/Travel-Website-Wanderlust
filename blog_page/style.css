@@ -1,0 +1,95 @@
+.text-center{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+
+}
+body {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #343a40;
+}
+.hero img{
+  height: auto;
+  width:100%;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 15px;
+}
+.navbar-nav .nav-link {
+  margin-left: 15px;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0;
+}
+.navbar{
+  color: #f8f9fa;
+}
+.nav-link {
+  text-decoration: underline;
+  transition: background-color 0.3s ease;
+}
+.nav-link:hover {
+  background-color: chocolate;
+  color: #f8f9fa;
+} 
+.hero .container h1,.hero .container p{
+ color : rgb(21, 17, 17);
+ font-weight: bolder;
+ font-style: oblique;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.footer {
+  background-color: #3b4148;
+  padding: 40px 0;
+  color: #f8f9fa;
+}
+.footer h5 {
+  font-weight: 700;
+}
+.footer .contact, .footer .about, .footer .copyright {
+  margin-bottom: 10px;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translate(5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
